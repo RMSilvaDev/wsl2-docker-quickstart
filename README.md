@@ -201,17 +201,11 @@ Se a distribuição Linux que você instalou estiver na versão 1, você pode al
 wsl --set-version <distribution name> 2
 ```
 
-Parabéns, seu WSL2 já está funcionando!
+digite o comando abaixo no PowerShell para iniciar o wsl com o usuário ubuntu
 
-![Exemplo de WSL2 funcionando](img/wsl2-working.png)
-
-### Instalação do WSL 2 via Windows Store
-
-Também é possível instalar distribuições Linux pelo Windows Store. Basta acessar o Windows Store e procurar pelo nome da distribuição Linux desejada e clicar em instalar.
-
-Sugerimos o Ubuntu (sem versão) por ser uma distribuição popular e que já vem com várias ferramentas úteis para desenvolvimento instaladas  por padrão.
-
-![Distribuições Linux no Windows Store](img/linux-distros.png)
+``` bash
+wsl -u ubuntu
+```
 
 
 ### Integração com VSCode
