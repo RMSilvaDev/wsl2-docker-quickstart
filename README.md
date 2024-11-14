@@ -155,7 +155,7 @@ Verifique se seu Windows está atualizado, pois o WSL 2 depende de uma versão a
 
 ### Atualizar o WSL
 
-Com a versão 2004 do Windows 10 ou Windows 11, o WSL já estará presente em sua máquina, execute o comando para pegar a versão mais recente do WSL:
+Com a versão 2004 do Windows 10 ou Windows 11, o WSL já estará presente em sua máquina, execute o comando para pegar a versão mais recente do WSL, abra o **PowerShell** no modo _administrador_:
 
 ``` bash
 wsl --update
